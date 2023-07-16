@@ -1,3 +1,4 @@
+//Exportar elemento:
 function saludar(nombre = "Usuario") {
     return `Hola, ${nombre}!`;
 }
