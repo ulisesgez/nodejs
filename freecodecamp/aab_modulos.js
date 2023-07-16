@@ -18,3 +18,21 @@ function buenasNoches(nombre = "Usuario") {
 }
 
 module.exports.buenasNoches = buenasNoches;
+
+/*
+Otra forma de exportar varios elementos:
+
+module.exports = {
+    buenosDias = buenosDias,
+    buenasTardes = buenasTardes,
+    buenasNoches = buenasNoches
+}
+
+o
+
+module.exports = {
+    buenosDias,
+    buenasTardes,
+    buenasNoches
+}
+*/
