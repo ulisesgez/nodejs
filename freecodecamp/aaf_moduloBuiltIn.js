@@ -45,6 +45,24 @@ console.log(os.networkInterfaces());//Interfaces de red
 Modulo timers:
 Contiene fuciones que ejecutan código luego de un cierto periodo de tiempo.
 
-setTimeout(): Para ejecutar codigo luego de un numero especifico de milisegundos.
+Higher-order programming:
+Es una técnica de programación que consiste en pasar una función como argumento a otra función.
 
+setTimeout(): Para ejecutar codigo luego de un numero especifico de milisegundos.
+Estructura:
+setTimeout(fuction, delay, [arg], [...]))
+o
+setTimeout(callback, delay, [arg], [...])
 */
+function timeDelay(topic) {
+    console.log(`I'm learning ${topic}`);
+}
+
+//setTimeout(timeDelay, 1000, "Node.js");//Ejecuta la función timeDelay luego de 1 segundo.
+setTimeout(timeDelay, 5000, "Node.js");//Ejecuta la función timeDelay luego de 5 segundos.
+
+function addNumber(a, b) {
+    console.log(a + b);
+}
+
+setTimeout(addNumber, 15000, 5, 10);//Ejecuta la función addNumber luego de 15 segundos.
