@@ -72,6 +72,7 @@ setTimeout(addNumber, 15000, 5, 10);//Ejecuta la función addNumber luego de 15 
 setImmediate(): Para ejecutar codigo asincrono en la proxima iteración del ciclo de eventos(lo mas pronto posible).
 Se ejecuta despues del codigo sincrono.
 Se ejecuta lo mas rapido posible de forma asincrona.
+
 Estructura:
 setImmediate(fuction, [arg], [...]))
 o
@@ -85,3 +86,18 @@ function usingsetimmediate(topic) {
 console.log("Before setImmediate");
 setImmediate(usingsetimmediate, "Node.js");//Ejecuta la función usingsetimmediate en la proxima iteración del ciclo de eventos.
 console.log("After setImmediate");//Se ejecuta antes que la función usingsetimmediate.
+
+/*
+setInterval(): Para ejecutar codigo un numero infinito de veces con un retraso especifico de milisegundos
+
+Estructura:
+setInterval(fuction, delay, [arg], [...]))
+o
+setInterval(callback, delay, [arg], [...])
+*/
+
+function usingsetinterval(topic) {
+    console.log(`I'm learning ${topic}`);
+}
+
+setInterval(usingsetinterval, 1000, "Node.js");//Ejecuta la función usingsetinterval cada 1 segundo.
