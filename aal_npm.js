@@ -16,8 +16,33 @@ Dependencia:
 Paquete requerido por otro paquete.
 Paquete que otro paquete necesita para funcionar correctamente.
 
+Package.json:
+Archivo que contiene informacion sobre un paquete.
+Contiene informacion como el nombre, la version, la descripcion, los scripts, las dependencias, etc.
+
+Package-lock.json:
+Se genera automaticamente cuando npm modifica el arbol de node_modules o package.json.
+Describe el arbol generado para que futuras instalaciones puedan generar exactamente el mismo arbol.
+Otros desarrolladores pueden instalar las exactamente las mismas dependencias.
+Propiedades:
+name: Nombre del paquete.
+version: Version del paquete.
+lockfileVersion: Version del formato del archivo.
+packages: Objeto que asocia la ubicacion de cada paquete con un objeto que continene informacion sobre ese paquete.
+
+Inicializar un proyecto:
+
 npm init// Crea un archivo package.json
 npm init -y// Crea un archivo package.json con valores por defecto
 o
 npm init --yes// Crea un archivo package.json con valores por defecto
+
+Instalar un paquete:
+npm install <package>
+
+Desinstalar un paquete:
+npm uninstall <package>
+
+Instalar una dependencia de desarrollo:
+npm install <package> --save-dev
 */
