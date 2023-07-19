@@ -1,0 +1,17 @@
+{
+    "title": "nodejs",
+    "views": 1000,
+    "likes": 10,
+    "dislikes": 1,
+    "comments": [
+        {
+            "user": "user1",
+            "message": "message1"
+        },
+        {
+            "user": "user2",
+            "message": "message2"
+        }
+    ],
+    "public": true
+}
