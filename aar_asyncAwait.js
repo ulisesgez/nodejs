@@ -30,7 +30,8 @@ function pagarProducto(respuesta) {
     });
 }
 
-//Chainig Promises:
+/*
+Chainig Promises:
 comprarProducto('Huevo')
     .then(res => {
         console.log(res);//Numero de orden: 123456
@@ -42,5 +43,21 @@ comprarProducto('Huevo')
     .catch(err => {
         console.log(err);
     });
+*/
 
-//Usando Async Await:
+/*
+Usando Async Await:
+Todas las fuciones con async retornan una promesa.
+*/
+async function procesoAdquirirProducto(producto) {
+    try {
+        const respuestaCompra = await comprarProducto(producto);
+        console.log(respuestaCompra);
+        const respuestaPago = await pagarProducto(respuesta);
+        console.log(respuestaPago);
+    } catch (error) {
+        console.log(error);
+    }
+}
+
+procesoAdquirirProducto('Jugo');
