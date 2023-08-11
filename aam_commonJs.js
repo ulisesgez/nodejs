@@ -3,8 +3,8 @@ Aqui importamos el modulo que creamos en el archivo aab_moduloUno.js:
 Nota: Hay diferencia entre importar (import) un modulo y
 requerirlo / incluirlo (require).
 */
-const saludo = require("./aaa_modulos");
-const saludos = require("./aab_modulos");
+const saludo = require("./aaj_commonJs");
+const saludos = require("./aak_commonJs");
 
 // const buenosDias = require("./aab_modulos");
 // const buenasTardes = require("./aab_modulos");

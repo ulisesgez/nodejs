@@ -1,5 +1,5 @@
 /*
-Exportar varios elementos:
+Exportar varios elementos con commonJS:
 */
 function buenosDias(nombre = "Usuario") {
     return `Hola, buenos dias ${nombre}!`;
