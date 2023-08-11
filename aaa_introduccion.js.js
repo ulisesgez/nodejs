@@ -3,6 +3,15 @@ Node.js
 Ideado como un entorno de ejecución de JavaScript orientado a eventos asíncronos,
 Node.js está diseñado para crear aplicaciones escalables en red.
 
+Entorno de ejecución:
+Entorno (infraestructura) en el cual se ejecuta un programa o aplicación.
+
+Entorno asíncrono:
+Evento que se ejecuta independientemente del programa principal de la aplicación.
+
+Evento síncrono:
+Evento que se ejecuta como parte del proceso principal de la aplicación.
+
 REPL:
 - Read
 - Eval
