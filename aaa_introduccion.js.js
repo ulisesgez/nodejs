@@ -28,10 +28,3 @@ node hola_mundo.js que en este caso seria node aaa_introduccion.js
 */
 let nombre = "Ulises";
 console.log("Hola " + nombre);
-
-/*
-
-
-
-
-*/
