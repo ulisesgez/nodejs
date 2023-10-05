@@ -27,4 +27,4 @@ concepto anterior ya que no entraremos al repl, ejecutaremos el archivo desde la
 node hola_mundo.js que en este caso seria node aaa_introduccion.js
 */
 let nombre = "Ulises";
-console.log("Hola " + nombre);
+console.log("Hola " + nombre);// Hola Ulises
