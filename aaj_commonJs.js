@@ -17,6 +17,4 @@ console.log(module.exports);// {}
 */
 module.exports.saludar = saludar;
 
-/*
-console.log(module.exports);// { saludar: [Function: saludar] }
-*/
+//console.log(module.exports);// { saludar: [Function: saludar] }

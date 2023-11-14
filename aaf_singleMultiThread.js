@@ -3,6 +3,7 @@ Single thread (synchronous):
 Un solo hilo de ejecucion, solo puede ejecutar una cosa a la vez.
 Ejemplo:
 */
+
 console.log('Inicio');
 console.log('Paso 1');
 console.log('Paso 2');
