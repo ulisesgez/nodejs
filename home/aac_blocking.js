@@ -1,8 +1,8 @@
 const fs = require('fs');
 
-console.log('start program');
+console.log('Start program');
 
 const data = fs.readFileSync('aae_blockingNonBlocking.txt', 'utf8');
 console.log(data);
 
-console.log('end program');
+console.log('End program');
